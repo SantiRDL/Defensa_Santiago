@@ -33,5 +33,13 @@ namespace Ucu.Poo.Defense
         {
             this.items.Remove(item);
         }
+
+        public string AsText()
+        {
+
+            Console.WriteLine($"{this.items[0].Quantity} de {this.items[0].Material} a {this.items[0].Price}");
+                
+
+        }
     }
 }
