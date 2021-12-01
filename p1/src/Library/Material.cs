@@ -8,8 +8,10 @@ namespace Ucu.Poo.Defense
 
         public Material(string name, MaterialType type)
         {
+           
             this.Name = name;
-            this.Type = type;
+            this.Type = new MaterialType(Type.Name, Type.IsDangerous);
+            
         }
     }
 }
