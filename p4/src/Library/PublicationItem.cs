@@ -1,6 +1,6 @@
 namespace Ucu.Poo.Defense
 {
-    public class PublicationItem
+    public class PublicationItem : IPublication
     {
         public Material Material { get; set; }
 

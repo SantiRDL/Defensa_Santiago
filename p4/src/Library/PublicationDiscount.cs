@@ -2,7 +2,7 @@ using System;
 
 namespace Ucu.Poo.Defense
 {
-    public class PublicationDiscount
+    public class PublicationDiscount : IPublication
     {
         private int amount;
 

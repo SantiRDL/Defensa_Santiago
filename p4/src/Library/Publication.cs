@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 
 namespace Ucu.Poo.Defense
 {
-    public class Publication
+    public class Publication : IPublication
     {
         public DateTime EndDate { get; set; }
 
